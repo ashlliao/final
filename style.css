@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background.jpg);
+}
+.title {
+    background-color: #5C5656;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    margin-right: 6px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555250;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 7px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    color: #D8CFC2;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.work {
+    width: 100%;
+    height: 600px;
+    background-color: #4A413B;
+    display: flex;
+}
+.divinecomedy {
+    color: #E9E7E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 47px;
+    flex: 1;
+    margin-right: 20px;
+}
+.divinecomedy article {
+}
+.result {
+    margin-left: 6px;
+    background-color: #AEABA6;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    border-radius: 15px;
+    justify-content: center;
+    padding-right: 3px;
+    margin-right: 7px;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.exile2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 61px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+article {
+    font-size: 18px;
+}
+header h1 {
+    color: #ECDDC5;
+}
+header h2 {
+    color: #ECDDC5;
+}
+.introduction {
+    width: 100%;
+    height: 500px;
+    background-color: #4E443A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.introtext {
+    font-size: 20px;
+    color: #ECDDC5;
+    padding-right: 20px;
+    border-radius: 25px;
+    height: 200px;
+    text-align: left;
+    padding-bottom: 95px;
+}
+.relationship {
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(relationship.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.relatext {
+    color: #ECE6DD;
+    font-size: large;
+    display: flex;
+    height: 95px;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    border-radius: 16px;
+}
+.exile {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 32px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(backgground.jpg);
+}
+.exile h1 {
+    color: #E1DBDB;
+}
+nav {
+    width: 100%;
+    background-color: #59493A;
+    height: 40px;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px;
+    opacity: 0.7;
+}
+nav a:link {
+    color: #E1D6C5;
+    text-decoration: none;
+}
+nav a:hover {
+    font-size: large;
+    color: #C6F3C9;
+}
+.link {
+    padding-right: 50px;
+}
+nav a:visited {
+    color: #E1D6C5;
+    text-decoration: none;
+}
+.first {
+    color: #E1D6C5;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+.background:hover {
+    -webkit-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+.result:hover {
+    -webkit-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
